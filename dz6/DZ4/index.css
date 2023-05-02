@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.element {
+    display: inline-block;
+    align-self: stretch;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.element img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.element h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.element span {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.element button {
+    margin: 10px 0 0;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.element button:hover{
+    color: white;
+    background-color: blue;
+
+}
